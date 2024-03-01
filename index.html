@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+</head>
+<body>
+    <h1 id="heading">Address Maker</h1>
+    <h4>An Online Address Creator Tool</h4>
+    <hr>
+    <h2 id="h2">Type your Information here</h2>
+    <br><br>
+    <form>
+        Name :
+        <br>
+        <input type="text" name="name" class="input" id="names">
+        <br><br>
+        Mobile No. :
+        <br>
+        <input type="number" name="mobile number" class="input" id="num">
+        <br><br>
+        Alternate Mobile No. :
+        <br>
+        <input type="number" name="alternate number" class="input" id="alternate">
+        <br><br>
+        S/O,W/O,D/O :
+        <br>
+        <input type="text" name="relation" class="input" id="sowo">
+        <br><br>
+        E-mail :
+        <br>
+        <input type="text" name="email" class="input" id="mail">
+        <br><br>
+        Address : 
+        <br>
+        <textarea name="address" id="venue" class="input"></textarea>
+        <br><br>
+        <button id="btn" onclick="a() ; return patta() ; return numb() ; return vac() ;return anum() ;return sow() ;return mails()">Submit</button>
+    </form>
+
+    <div id="div">
+        <p id="fullname"></p>
+        <p id="number"></p>
+        <p id="a_number"></p>
+        <p id="sonwo"></p>
+        <p id="email"></p>
+        <p id="add"></p>
+        
+    </div>
+    <div id="footer">
+        <button class="button" onclick="pre()">Print</button>
+        <button class="button" onclick="bold()">Bold</button>
+        <button class="button" onclick="italic()">Italic</button>
+        <button class="button" onclick="undo()">Undo</button>
+    </div>
+</body>
+</html>
