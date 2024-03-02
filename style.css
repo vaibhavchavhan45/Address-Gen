@@ -10,7 +10,7 @@ body,html{
 }
 
 body{
-    background-image: url("images/page_bg2.jpg");
+    background-image: url("./images/page_bg2.jpg");
     background-size: cover;
 }
 
@@ -76,7 +76,7 @@ form{
     top : 155px;
     left : 52%;
     border : solid 3px white;
-    background-image: url(images/card.jpg);
+    background-image: url(./images/card.jpg);
     background-size: cover;
 }
 
